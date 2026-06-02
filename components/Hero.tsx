@@ -187,8 +187,8 @@ export default function Hero() {
               Holten · Rijssen · Markelo · Goor · Deventer · Wierden
             </motion.p>
 
-            {/* Bel knop */}
-            <motion.div custom={3} initial="hidden" animate="visible" variants={fadeUp} className="mb-8">
+            {/* Knoppen */}
+            <motion.div custom={3} initial="hidden" animate="visible" variants={fadeUp} className="flex flex-wrap gap-3 mb-8">
               <a
                 href="tel:0641035574"
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-md font-semibold text-base border-2 border-white text-white bg-transparent transition-all hover:bg-white hover:text-gray-900"
@@ -196,6 +196,13 @@ export default function Hero() {
               >
                 <Phone size={18} />
                 Bel direct: 06-41035574
+              </a>
+              <a
+                href="#diensten"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-md font-semibold text-base text-white transition-all hover:opacity-90 hover:scale-105"
+                style={{ backgroundColor: "#007228", fontFamily: "var(--font-dm-sans, sans-serif)" }}
+              >
+                Bekijk diensten
               </a>
             </motion.div>
 
