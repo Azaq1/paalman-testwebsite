@@ -51,7 +51,7 @@ function HeroForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
-      <h3 className="text-white font-bold text-lg mb-4" style={{ fontFamily: "var(--font-playfair, serif)" }}>
+      <h3 className="text-white font-bold text-lg mb-4 text-center" style={{ fontFamily: "var(--font-dm-sans, sans-serif)" }}>
         Vraag gratis offerte aan
       </h3>
 

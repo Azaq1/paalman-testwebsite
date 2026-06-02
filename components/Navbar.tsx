@@ -80,7 +80,7 @@ export default function Navbar() {
           style={{ backgroundColor: "#007228", fontFamily: "var(--font-dm-sans, sans-serif)" }}
         >
           <Phone size={15} />
-          06-41035574
+          Bel ons
         </a>
 
         {/* Mobile burger */}
