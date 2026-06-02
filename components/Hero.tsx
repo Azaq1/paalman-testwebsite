@@ -157,7 +157,7 @@ export default function Hero() {
                 ))}
               </div>
               <span className="text-white text-sm font-medium" style={{ fontFamily: "var(--font-dm-sans, sans-serif)" }}>
-                4.8 / 5 · Google Reviews
+                5.0 / 5 · Google Reviews
               </span>
             </motion.a>
 
