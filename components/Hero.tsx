@@ -170,9 +170,9 @@ export default function Hero() {
               className="text-5xl sm:text-6xl font-bold text-white leading-[1.05] mb-5"
               style={{ fontFamily: "var(--font-playfair, serif)" }}
             >
-              Uw installateur
-              <span className="block" style={{ color: "#4ade80" }}>in Holten —</span>
-              <span className="block text-white">vakwerk, altijd.</span>
+              Voor al uw
+              <span className="block" style={{ color: "#4ade80" }}>installaties</span>
+              <span className="block text-white">en onderhoud.</span>
             </motion.h1>
 
             {/* Subkop */}
@@ -181,13 +181,10 @@ export default function Hero() {
               initial="hidden"
               animate="visible"
               variants={fadeUp}
-              className="text-base text-white/80 mb-7 leading-relaxed"
+              className="text-white/55 text-sm mb-7"
               style={{ fontFamily: "var(--font-dm-sans, sans-serif)" }}
             >
-              Gas · Water · Elektra · Sanitair · Riolering · Verwarming
-              <span className="block mt-1 text-white/55 text-sm">
-                Holten · Rijssen · Markelo · Goor · Deventer · Wierden
-              </span>
+              Holten · Rijssen · Markelo · Goor · Deventer · Wierden
             </motion.p>
 
             {/* Bel knop */}
