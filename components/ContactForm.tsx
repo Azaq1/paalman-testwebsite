@@ -56,7 +56,7 @@ export default function ContactForm() {
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest uppercase mb-4"
+              className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest uppercase mb-4 mx-auto lg:mx-0"
               style={{ color: "#86efac", fontFamily: "var(--font-dm-sans, sans-serif)" }}
             >
               <span className="w-8 h-px bg-green-300" />
@@ -66,7 +66,7 @@ export default function ContactForm() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight"
+              className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight text-center lg:text-left"
               style={{ fontFamily: "var(--font-playfair, serif)" }}
             >
               Direct een offerte

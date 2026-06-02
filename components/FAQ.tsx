@@ -113,7 +113,7 @@ export default function FAQ() {
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest uppercase mb-4"
+              className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest uppercase mb-4 mx-auto lg:mx-0"
               style={{ color: "#007228", fontFamily: "var(--font-dm-sans, sans-serif)" }}
             >
               <span className="w-8 h-px" style={{ backgroundColor: "#007228" }} />
@@ -123,7 +123,7 @@ export default function FAQ() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6"
+              className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 text-center lg:text-left"
               style={{ fontFamily: "var(--font-playfair, serif)" }}
             >
               Veelgestelde
@@ -133,7 +133,7 @@ export default function FAQ() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-gray-500 mb-8 leading-relaxed"
+              className="text-gray-500 mb-8 leading-relaxed text-center lg:text-left"
               style={{ fontFamily: "var(--font-dm-sans, sans-serif)" }}
             >
               Staat uw vraag er niet bij? Bel of mail ons gerust — wij helpen u graag verder.
